@@ -9,8 +9,7 @@
         <h1>IMPACT</h1>
     </div>
     <div class="column">
-      <h2>Column 2</h2>
-      <p>Some text..</p>
+      <h2>Creative page</h2>
     </div>
   </div>
 </body>
@@ -42,6 +41,10 @@
 h1 {
     color: var(--impact-yellow);
     font-size: 120px;
+}
+
+h2 {
+  color: white;
 }
 
 
