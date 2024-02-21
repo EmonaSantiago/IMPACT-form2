@@ -24,7 +24,7 @@
 
     body {
     margin: 0;
-    background-image: url("creative.png");
+    background-image: url("/images/creative.png");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
