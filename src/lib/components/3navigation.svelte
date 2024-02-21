@@ -1,7 +1,7 @@
 <div class="button-container">
     <a href="/" class="button">CREATIVE</a>
-    <a href="/" class="button1">CREW</a>
     <a href="/" class="button">MODEL</a>
+    <a href="/" class="button1">CREW</a>
   </div>
   
   <style>

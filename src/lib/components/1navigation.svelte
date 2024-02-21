@@ -1,8 +1,8 @@
 
 <div class="button-container">
     <a href="/" class="button1">CREATIVE</a>
-    <a href="/" class="button">CREW</a>
     <a href="/" class="button">MODEL</a>
+    <a href="/" class="button">CREW</a>
   </div>
   
   <style>
