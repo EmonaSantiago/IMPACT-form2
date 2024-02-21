@@ -28,7 +28,7 @@
 
 body {
     margin: 0;
-    background-image: url("TEAM.png");
+    background-image: url("images/TEAM.png");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
