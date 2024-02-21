@@ -1,11 +1,11 @@
 <section id="footer">
     <ul>
         <li>
-            <a href="/">INSTAGRAM</a>
+            <a href="https://www.instagram.com/impact.officials/">INSTAGRAM</a>
         </li>
       <li>|</li>
         <li>
-            <a href="/">TIKTOK</a>
+            <a href="https://www.tiktok.com/@impact.officials">TIKTOK</a>
         </li>
     </ul>
 </section>

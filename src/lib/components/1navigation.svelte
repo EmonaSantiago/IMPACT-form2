@@ -31,7 +31,6 @@
       text-decoration: none;
       border: none;
       border: solid white 1px;
-      border-radius: 5px;
       transition: background-color 0.3s;
     }
   
