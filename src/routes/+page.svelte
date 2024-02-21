@@ -8,8 +8,8 @@
     <div class="column">
         <ul>
             <li><a class="button" href="/creative">CREATIVE</a></li>
-            <li><a class="button" href="/crew">CREW</a></li>
             <li><a class="button" href="/model">MODEL</a></li>
+            <li><a class="button" href="/crew">CREW</a></li>
          </ul>
     </div>
 </div>
