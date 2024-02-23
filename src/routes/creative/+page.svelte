@@ -1,5 +1,6 @@
 <script>
     import Navigation from "../../lib/components/1navigation.svelte";
+    import Form from "../../lib/components/1form.svelte";
 </script>
 
 <body>
@@ -9,10 +10,12 @@
         <h1>IMPACT</h1>
     </div>
     <div class="column">
-      <h2>Creative page</h2>
+      <Form></Form>
     </div>
   </div>
 </body>
+
+
 <style>
     * {
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
