@@ -86,7 +86,7 @@
           <label for="subject">motivation video [file]</label>
         </div>
         <div class="col-75">
-            <input id="file" type="file" name="attachment" accept="image/png, image/jpeg">
+            <input id="file-button" type="file" name="attachment" accept="image/png, image/jpeg">
         </div>
       </div>
 
@@ -258,6 +258,10 @@ margin-top: 6px;
 content: "";
 display: table;
 clear: both;
+}
+
+#file-button {
+  color: grey;
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
