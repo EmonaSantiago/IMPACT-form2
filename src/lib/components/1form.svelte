@@ -261,7 +261,7 @@ clear: both;
 }
 
 #file-button {
-  color: grey;
+  color: greyc;
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
