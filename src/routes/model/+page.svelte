@@ -1,4 +1,5 @@
 <script>
+  import Form from "../../lib/components/2form.svelte";
     import Navigation from "../../lib/components/2navigation.svelte";
 </script>
 
@@ -9,7 +10,7 @@
         <h1>IMPACT</h1>
     </div>
     <div class="column">
-      <h2>Model page</h2>
+     <Form></Form>
     </div>
   </div>
 </body>
