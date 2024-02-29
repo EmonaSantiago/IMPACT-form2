@@ -2,7 +2,7 @@
 <div class="row">
     <div class="column">
       <h1>IMPACT</h1>
-      <h3>Welkom bij ons <span>aanmeldingsformulier</span> voor een <span>positie bij Impact!</span> We zijn verheugd dat je interesse toont om deel uit te maken van ons team.</h3>
+      <h3>WELCOME TO THE <span>IMPACT</span> APPLICATION FORM</h3>
     </div>
 
     <div class="column">
@@ -28,7 +28,7 @@
 
 body {
     margin: 0;
-    background-image: url("/images/TEAM.png");
+    background-image: url("/images/TEAMimpact.png");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -80,6 +80,7 @@ li {
         margin-bottom: 30px;  
         background-color: var(--impact-yellow);
         text-align: center;
+        border-radius: 5px;
     }
 
 

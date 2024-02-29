@@ -176,6 +176,7 @@
     padding: 12px;
     border: 1px solid #ccc;
     resize: vertical;
+    border-radius: 5px;
     }
     
     label {
@@ -229,10 +230,15 @@
     
     /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
     @media screen and (max-width: 600px) {
-    .col-25, .col-75, input[type=submit] {
+    .col-25, .col-75 {
     width: 100%;
     margin-top: 0;
     }
+
+    input[type=submit] {
+  margin-top: 1em;
+  width: 100%;
+}
     }
     
     #bestand {

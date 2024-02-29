@@ -107,7 +107,7 @@
 
 
       <div class="row">
-        <input type="submit" value="SUBMIT">
+        <input id="submit" type="submit" value="SUBMIT">
       </div>
     </form>
   </div>
@@ -213,8 +213,8 @@ width: 100%;
 padding: 12px;
 border: 1px solid #ccc;
 resize: vertical;
+border-radius: 5px;
 }
-
 label {
 padding: 12px 12px 12px 0;
 display: inline-block;
@@ -229,7 +229,7 @@ padding: 12px 20px;
 border: none;
 cursor: pointer;
 float: right;
-margin-top: 20em;
+border-radius: 5px;
 }
 
 /* input[type=submit]:hover {
@@ -266,9 +266,14 @@ clear: both;
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-.col-25, .col-75, input[type=submit] {
+.col-25, .col-75 {
 width: 100%;
 margin-top: 0;
+}
+
+input[type=submit] {
+  margin-top: 1em;
+  width: 100%;
 }
 }
 
