@@ -2,16 +2,16 @@
 <div class="row">
     <div class="column">
       <h1>IMPACT</h1>
-      <h3>WELCOME TO THE <span>IMPACT</span> APPLICATION FORM</h3>
+      <h3>WELCOME TO THE IMPACT <span>APPLICATION FORM</span></h3>
     </div>
 
     <div class="column">
         <ul>
             <li><a class="button" href="/creative">CREATIVE</a></li>
-            <li><a class="button" href="/model">MODEL</a></li>
             <li><a class="button" href="/crew">CREW</a></li>
+            <li><a class="button" href="/model">MODEL</a></li>
          </ul>
-    </div>
+      
 </div>
 </body>
 
@@ -43,6 +43,7 @@ body {
   padding: 10px;
   padding-top: 30px;
   height: 300px;
+  
 }
 
 
@@ -52,41 +53,65 @@ body {
   clear: both;
 }
 
+.button {
+      flex: 1;
+      max-width: 30%;
+      text-align: center;
+      margin: 5px; 
+      margin-top: 1em;
+      padding: 10px;
+      text-decoration: none;
+      border: none;
+      transition: background-color 0.3s;
+    }
+
 h1 {
     color: var(--impact-yellow);
     font-size: 120px;
 }
 
 span { 
-        color: white;
+        color: var(--impact-yellow);
     }
 
 h3 {
-    color: var(--impact-yellow);
+    color: white;
 }
+
+h3, span {
+    font-family: MADE Future X;
+    font-size: 20px;
+}
+
 
 a {
         text-decoration: none;
         color: black;
     }
 
-
-
-
-li {
+    li {
         list-style-type: none;
         width: 250px;
         padding: 1em;
         margin-bottom: 30px;  
-        background-color: var(--impact-yellow);
+        background-color: #F8F053;
         text-align: center;
         border-radius: 5px;
     }
 
-
     ul {
         padding: 0;
         display: inline-block;
+        text-align: left;
+    }
+
+
+
+  
+
+    .nav {
+        padding: 0;
+        display: flex;
         text-align: left;
     }
 
